@@ -20,7 +20,14 @@ Nippocf:
 ```
 $ export CONFL_URL="https://your-confluence-host"
 $ export CONFL_USERNAME="your.user.name"
+$ nippocf
+Password for your.user.name: <type here, the password will be stored in keychain>
+# Editor opens automatically
+# Write nippo in markdown
+# Nippocf posts a blog entry.
+```
 
+```
 $ # For instance, it's 2013/12/31
 $ # Edit nippo of 2013/12/31
 $ nippocf
