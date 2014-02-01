@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Nippocf::VERSION
   spec.authors       = ["Ryota Arai"]
   spec.email         = ["ryota.arai@gree.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "Write nippo (daily report in Japanese) on Atlassian Confluence in Markdown"
+  spec.homepage      = "https://github.com/ryotarai/nippocf"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
