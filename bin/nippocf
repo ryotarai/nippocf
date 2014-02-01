@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'nippocf/cli'
+Nippocf::CLI.new(ARGV).run
+
