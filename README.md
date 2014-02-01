@@ -2,6 +2,10 @@
 
 Write nippo (daily report in Japanese) on Atlassian Confluence.
 
+Nippocf:
+* posts blog entry
+* convert markdown to html
+
 ## Installation
 
     $ gem install nippocf
