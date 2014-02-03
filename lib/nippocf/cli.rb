@@ -2,7 +2,7 @@ require 'nippocf'
 require 'keychain'
 require 'io/console'
 require 'confluence/confluence_connector'
-require 'redcarpet'
+require 'github/markdown'
 require 'tmpdir'
 require 'nokogiri'
 require 'optparse'
@@ -59,8 +59,7 @@ module Nippocf
         markdown_text = File.read(filename)
       end
 
-      markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true, :space_after_headers => true)
-      entry['content'] = markdown.render(markdown_text)
+      entry['content'] = GitHub::Markdown.render(markdown_text)
       entry['content'] << "<div class=\"markdown_source\" style=\"display:none\">#{markdown_text}</div>"
       rpc.storeBlogEntry(entry)
     end

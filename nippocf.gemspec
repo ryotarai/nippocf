@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "redcarpet"
+  spec.add_dependency "github-markdown"
   spec.add_dependency "nokogiri"
   spec.add_dependency "ruby-keychain"
   spec.add_dependency "socksify"
