@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "nippocf"
   spec.version       = Nippocf::VERSION
   spec.authors       = ["Ryota Arai"]
-  spec.email         = ["ryota.arai@gmail.net"]
+  spec.email         = ["ryota.arai@gmail.com"]
   spec.summary       = "Write nippo (daily report in Japanese) on Atlassian Confluence in Markdown"
   spec.homepage      = "https://github.com/ryotarai/nippocf"
   spec.license       = "MIT"
