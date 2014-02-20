@@ -1,3 +1,9 @@
+# The MIT License (MIT)
+#
+# Copyright (c) Matt Zukowski
+#
+# https://github.com/zuk/confluence4r
+#
 require 'active_support'
 require 'confluence/confluence_connector'
 

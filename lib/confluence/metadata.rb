@@ -1,3 +1,10 @@
+# The MIT License (MIT)
+#
+# Copyright (c) Matt Zukowski
+#
+# https://github.com/zuk/confluence4r
+#
+
 # Allows for reading and writing a {metadata-list} macro in a page's content.
 # 
 # For example, if your wiki content is:

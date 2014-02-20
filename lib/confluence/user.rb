@@ -1,3 +1,9 @@
+# The MIT License (MIT)
+#
+# Copyright (c) Matt Zukowski
+#
+# https://github.com/zuk/confluence4r
+#
 require 'confluence/confluence_remote_data_object'
 
 class Confluence::User < Confluence::RemoteDataObject
